@@ -1,3 +1,7 @@
+## NB!
+Tegemist on mustandiga, mitte kasutada arendustes!
+This is a draft IG!
+
 [//]: # (REPLACE_ME: Should replace with domain specific introduction)
 ### Intro
 Vähiandmete juhtimislaud Implementation Guide
