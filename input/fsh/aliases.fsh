@@ -8,3 +8,4 @@ Alias: $rhk-10 = https://fhir.ee/CodeSystem/rhk-10
 
 Alias: $sct = http://snomed.info/sct
 Alias: $ucum = http://unitsofmeasure.org
+Alias: $loinc = http://loinc.org

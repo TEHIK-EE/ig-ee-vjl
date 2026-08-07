@@ -13,6 +13,7 @@ Description: "Height profile for vjl."
 * subject only Reference(EEVJLPatient)
 * effective[x] 1..1
 * effective[x] only dateTime
+* effective[x] ^short = "Pikkuse mõõtmise tegemise aeg?"
 * value[x] 1..1
 * value[x] only Quantity
 * valueQuantity.value 1..1
