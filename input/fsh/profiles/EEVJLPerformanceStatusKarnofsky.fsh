@@ -5,7 +5,7 @@ Title: "EE VJL Performance status Karnofsky"
 Description: "Performance status (Karnofsky score) profile for vjl."
 
 * ^status = #draft
-* ^experimental = true
+//* ^experimental = true
 * code = $sct#761869008 "Karnofsky Performance Status score" //Ühtlustada snomed koodid, hetkel eri hierarhiatest
 * category 0..1
 * category.coding 1..1

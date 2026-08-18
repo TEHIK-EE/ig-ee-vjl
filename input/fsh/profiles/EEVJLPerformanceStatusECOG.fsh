@@ -5,7 +5,7 @@ Title: "EE VJL Performance status ECOG"
 Description: "Performance status (ECOG scale) profile for vjl."
 
 * ^status = #draft
-* ^experimental = true
+//* ^experimental = true
 * code = $sct#424122007 "Eastern Cooperative Oncology Group performance status finding"
 * category 0..1
 * category.coding 1..1

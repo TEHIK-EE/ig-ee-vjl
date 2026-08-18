@@ -5,7 +5,7 @@ Title: "EE VJL Performance status Lansky"
 Description: "Performance status (Lansky score) profile for vjl."
 
 * ^status = #draft
-* ^experimental = true
+//* ^experimental = true
 //* code = $sct#?? "??"  Lanskyl ei ole LOINCi ega SNOMEDit (mCode??)
 * category 0..1
 * category.coding 1..1

@@ -5,7 +5,7 @@ Title: "EE VJL Menopause status"
 Description: "Menopause status profile for vjl."
 
 * ^status = #draft
-* ^experimental = true
+//* ^experimental = true
 * category 0..1
 * category.coding 1..1
 * category.coding = $observation-category#laboratory //Mille alusel seda siin hinnatakse?
