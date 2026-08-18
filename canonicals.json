@@ -1,0 +1,126 @@
+[{
+  "id" : "ee.fhir.vjl",
+  "type" : "ImplementationGuide",
+  "url" : "https://fhir.ee/vjl/ImplementationGuide/ee.fhir.vjl",
+  "version" : "0.1.0",
+  "name" : "EEVJL"
+},
+{
+  "id" : "ee-vjl-biomarker",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-biomarker",
+  "version" : "0.1.0",
+  "name" : "EEVJLBiomarker"
+},
+{
+  "id" : "ee-vjl-bmi",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-bmi",
+  "version" : "0.1.0",
+  "name" : "EEVJLBMI"
+},
+{
+  "id" : "ee-vjl-body-surface-area",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-body-surface-area",
+  "version" : "0.1.0",
+  "name" : "EEVJLBodySurfaceArea"
+},
+{
+  "id" : "ee-vjl-clinical-trial",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-clinical-trial",
+  "version" : "0.1.0",
+  "name" : "EEVJLClinicalTrial"
+},
+{
+  "id" : "ee-vjl-clinical-trial-consent",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-clinical-trial-consent",
+  "version" : "0.1.0",
+  "name" : "EEVJLClinicalTrialConsent"
+},
+{
+  "id" : "ee-vjl-clinical-trial-subject",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-clinical-trial-subject",
+  "version" : "0.1.0",
+  "name" : "EEVJLClinicalTrialSubject"
+},
+{
+  "id" : "ee-vjl-height",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-height",
+  "version" : "0.1.0",
+  "name" : "EEVJLHeight"
+},
+{
+  "id" : "ee-vjl-medication-administration",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-medication-administration",
+  "version" : "0.1.0",
+  "name" : "EEVJLSystemicTherapy"
+},
+{
+  "id" : "ee-vjl-menopause-status",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-menopause-status",
+  "version" : "0.1.0",
+  "name" : "EEVJLMenoapauseStatus"
+},
+{
+  "id" : "ee-vjl-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-patient",
+  "version" : "0.1.0",
+  "name" : "EEVJLPatient"
+},
+{
+  "id" : "ee-vjl-performance-status-ecog",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-performance-status-ecog",
+  "version" : "0.1.0",
+  "name" : "EEVJLPerformanceStatusECOG"
+},
+{
+  "id" : "ee-vjl-performance-status-karnofsky",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-performance-status-karnofsky",
+  "version" : "0.1.0",
+  "name" : "EEVJLPerformanceStatusKarnofsky"
+},
+{
+  "id" : "ee-vjl-performance-status-lansky",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-performance-status-lansky",
+  "version" : "0.1.0",
+  "name" : "EEVJLPerformanceStatusLansky"
+},
+{
+  "id" : "ee-vjl-radiotherapy",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-radiotherapy",
+  "version" : "0.1.0",
+  "name" : "EEVJLRadiotherapy"
+},
+{
+  "id" : "ee-vjl-radiotherapy-dose",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-radiotherapy-dose",
+  "version" : "0.1.0",
+  "name" : "EEVJLRadiotherapyDose"
+},
+{
+  "id" : "ee-vjl-surgeries",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-surgeries",
+  "version" : "0.1.0",
+  "name" : "EEVJLSurgeries"
+},
+{
+  "id" : "ee-vjl-weight",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.ee/vjl/StructureDefinition/ee-vjl-weight",
+  "version" : "0.1.0",
+  "name" : "EEVJLWeight"
+}]

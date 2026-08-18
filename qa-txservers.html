@@ -1,0 +1,1593 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>EEVJL : Terminology Server Report</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Terminology Server Report for EEVJL</h1>
+ <p>Generated Tue Aug 18 11:22:29 UTC 2026, FHIR version 5.0.0 for ee.fhir.vjl#0.1.0 (canonical = <a href="https://fhir.ee/vjl">https://fhir.ee/vjl</a> (<a href="https://fhir.ee/vjl/history.html">history</a>))</p>
+<p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
+<h2>Terminology Parameters</h2>
+<ul>
+  <li>
+    <b>x-system-cache-id</b>
+:     <code>dc8fd4bc-091a-424a-8a3b-6198ef146891</code>
+  </li>
+  <li>
+    <b>defaultDisplayLanguage</b>
+:     <code>en-US</code>
+  </li>
+</ul>
+<h2>Tx Manager report for 'https://term.tehik.ee/fhir/tx-reg'</h2>
+<p>
+  <b>Decisions</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>Message</b>
+    </td>
+    <td>
+      <b>Server</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Systems</b>
+    </td>
+    <td>
+      <b>Choices</b>
+    </td>
+  </tr>
+  <tr>
+    <td>Use primary server for urn:iso:std:iso:3166</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>urn:iso:std:iso:3166</td>
+    <td>[urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/biomarkeri-tulemused</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/menopausi-staatus</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/fhir-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Candidate server(s) https://term.tehik.ee/fhir/ dropped for http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: no usable copy of the code system found there</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/elementdefinition-types|5.0.0</td>
+    <td>[http://hl7.org/fhir/fhir-types|5.0.0, http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]</td>
+    <td>[[http://hl7.org/fhir/fhir-types|5.0.0]: authoritative = , candidates=, [http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/ecog-skaala</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/Karnofsky-skaala</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/Lansky-skoor</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/kiiritusravi-liik</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/kiiritusravi-eesmark</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/kirgulise-ravi-liik</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>https://fhir.ee/ValueSet/kirurgilise-ravi-eesmark</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=https://term.tehik.ee/fhir/</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://term.tehik.ee/fhir/</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166]: authoritative = , candidates=https://term.tehik.ee/fhir/, [urn:iso:std:iso:3166:-2]: authoritative = , candidates=https://term.tehik.ee/fhir/]</td>
+  </tr>
+</table>
+<p>
+  <b>Errors</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>URL</b>
+    </td>
+    <td>
+      <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_402.html</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Fdicom.nema.org%2Fmedical%2Fdicom%2Fcurrent%2Foutput%2Fchtml%2Fpart16%2Fsect_CID_402.html&amp;usage=publication">Error resolving valueSet http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_402.html: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/Karnofsky-skaala</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2FKarnofsky-skaala&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/Karnofsky-skaala: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/Lansky-skoor</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2FLansky-skoor&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/Lansky-skoor: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/biomarkeri-tulemused</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2Fbiomarkeri-tulemused&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/biomarkeri-tulemused: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/ecog-skaala</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2Fecog-skaala&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/ecog-skaala: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/kiiritusravi-eesmark</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2Fkiiritusravi-eesmark&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/kiiritusravi-eesmark: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/kiiritusravi-liik</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2Fkiiritusravi-liik&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/kiiritusravi-liik: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/kirgulise-ravi-liik</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2Fkirgulise-ravi-liik&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/kirgulise-ravi-liik: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/kirurgilise-ravi-eesmark</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2Fkirurgilise-ravi-eesmark&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/kirurgilise-ravi-eesmark: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://fhir.ee/ValueSet/menopausi-staatus</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=http%3A%2F%2Ffhir.ee%2FValueSet%2Fmenopausi-staatus&amp;usage=publication">Error resolving valueSet http://fhir.ee/ValueSet/menopausi-staatus: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=http%3A%2F%2Fhl7.org%2Ffhir%2FCodeSystem%2Ffhirpath-types%7C5.0.0&amp;usage=publication&amp;language=en-US">Error resolving system http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/fhir-types|5.0.0</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=http%3A%2F%2Fhl7.org%2Ffhir%2Ffhir-types%7C5.0.0&amp;usage=publication&amp;language=en-US">Error resolving system http://hl7.org/fhir/fhir-types|5.0.0: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://loinc.org</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication">Error resolving system http://loinc.org: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://snomed.info/sct</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication&amp;language=en-US">Error resolving system http://snomed.info/sct: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=en-US">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/Karnofsky-skaala</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2FKarnofsky-skaala&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/Karnofsky-skaala: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2FKarnofsky-skaala&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/Karnofsky-skaala: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/Lansky-skoor</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2FLansky-skoor&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/Lansky-skoor: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2FLansky-skoor&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/Lansky-skoor: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/administratiivne-sugu</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fadministratiivne-sugu&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/administratiivne-sugu: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/biomarkeri-tulemused</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fbiomarkeri-tulemused&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/biomarkeri-tulemused: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2Fbiomarkeri-tulemused&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/biomarkeri-tulemused: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/ecog-skaala</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fecog-skaala&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/ecog-skaala: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2Fecog-skaala&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/ecog-skaala: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/keeled</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkeeled&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/keeled: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/kiiritusravi-eesmark</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkiiritusravi-eesmark&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/kiiritusravi-eesmark: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkiiritusravi-eesmark&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/kiiritusravi-eesmark: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/kiiritusravi-liik</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkiiritusravi-liik&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/kiiritusravi-liik: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkiiritusravi-liik&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/kiiritusravi-liik: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/kirgulise-ravi-liik</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkirgulise-ravi-liik&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/kirgulise-ravi-liik: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkirgulise-ravi-liik&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/kirgulise-ravi-liik: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/kirurgilise-ravi-eesmark</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkirurgilise-ravi-eesmark&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/kirurgilise-ravi-eesmark: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2Fkirurgilise-ravi-eesmark&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/kirurgilise-ravi-eesmark: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/menopausi-staatus</td>
+    <td style="background-color: #ffe3e3">
+      <ul>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fmenopausi-staatus&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/menopausi-staatus: </span>
+        </li>
+        <li>
+          <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=https%3A%2F%2Ffhir.ee%2FValueSet%2Fmenopausi-staatus&amp;usage=publication">Error resolving CodeSystem https://fhir.ee/ValueSet/menopausi-staatus: </span>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>https://fhir.ee/ValueSet/patsiendi-identifikaatorite-domeen</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;valueSet=https%3A%2F%2Ffhir.ee%2FValueSet%2Fpatsiendi-identifikaatorite-domeen&amp;usage=publication">Error resolving valueSet https://fhir.ee/ValueSet/patsiendi-identifikaatorite-domeen: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>urn:iso:std:iso:3166</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication">Error resolving system urn:iso:std:iso:3166: </span>
+    </td>
+  </tr>
+  <tr>
+    <td>urn:iso:std:iso:3166:-2</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://term.tehik.ee/fhir/tx-reg/resolve?fhirVersion=5.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=en-US">Error resolving system urn:iso:std:iso:3166:-2: </span>
+    </td>
+  </tr>
+</table>
+<h2>Primary Server: https://term.tehik.ee/fhir/</h2>
+<a href="https://term.tehik.ee/fhir/"></a>
+<p>Use Count: 153. Code Systems used: </p>
+<table class="grid">
+  <tr>
+    <th>
+      <b>System</b>
+    </th>
+    <th>
+      <b>#Exp.</b>
+    </th>
+    <th>
+      <b>#Val.</b>
+    </th>
+    <th>
+      <b>Details</b>
+    </th>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/CodeSystem/fhirpath-types|5.0.0</td>
+    <td>0</td>
+    <td>38</td>
+    <td>
+      <a href="http://hl7.org/fhir/R5/codesystem-fhirpath-types.html">FHIRPath Types</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/fhir-types|5.0.0</td>
+    <td>0</td>
+    <td>38</td>
+    <td>
+      <a href="http://hl7.org/fhir/R5/codesystem-fhir-types.html">All FHIR Types</a>
+    </td>
+  </tr>
+</table>
+<p>ValueSets fetched:</p>
+<ul>
+  <li>http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_402.html</li>
+  <li>http://fhir.ee/ValueSet/Karnofsky-skaala</li>
+  <li>http://fhir.ee/ValueSet/Lansky-skoor</li>
+  <li>http://fhir.ee/ValueSet/biomarkeri-tulemused</li>
+  <li>http://fhir.ee/ValueSet/ecog-skaala</li>
+  <li>http://fhir.ee/ValueSet/kiiritusravi-eesmark</li>
+  <li>http://fhir.ee/ValueSet/kiiritusravi-liik</li>
+  <li>http://fhir.ee/ValueSet/kirgulise-ravi-liik</li>
+  <li>http://fhir.ee/ValueSet/kirurgilise-ravi-eesmark</li>
+  <li>http://fhir.ee/ValueSet/menopausi-staatus</li>
+  <li>https://fhir.ee/ValueSet/Karnofsky-skaala</li>
+  <li>https://fhir.ee/ValueSet/Lansky-skoor</li>
+  <li>
+    <a href="https://akk.tehik.ee/classifier/fhir/ValueSet/administratiivne-sugu">https://fhir.ee/ValueSet/administratiivne-sugu</a>
+  </li>
+  <li>https://fhir.ee/ValueSet/biomarkeri-tulemused</li>
+  <li>https://fhir.ee/ValueSet/ecog-skaala</li>
+  <li>
+    <a href="https://akk.tehik.ee/classifier/fhir/ValueSet/keeled">https://fhir.ee/ValueSet/keeled</a>
+  </li>
+  <li>https://fhir.ee/ValueSet/kiiritusravi-eesmark</li>
+  <li>https://fhir.ee/ValueSet/kiiritusravi-liik</li>
+  <li>https://fhir.ee/ValueSet/kirgulise-ravi-liik</li>
+  <li>https://fhir.ee/ValueSet/kirurgilise-ravi-eesmark</li>
+  <li>https://fhir.ee/ValueSet/menopausi-staatus</li>
+  <li>
+    <a href="https://akk.tehik.ee/classifier/fhir/ValueSet/patsiendi-identifikaatorite-domeen">https://fhir.ee/ValueSet/patsiendi-identifikaatorite-domeen</a>
+  </li>
+</ul>
+</body>
+</html>

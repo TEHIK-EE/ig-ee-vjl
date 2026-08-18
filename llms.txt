@@ -1,0 +1,44 @@
+# ee.fhir.vjl#0.1.0: VJL - Vähiandmete juhtimislaud
+
+## Pages
+
+* [Home](index.md)
+* [Diagram examples](page1.md)
+* [Contacts](contacts.md)
+* [Search](search.md)
+* [Artifacts Summary](artifacts.md)
+* [Sample page 2](page2.md)
+* [Downloads](downloads.md)
+
+## Resources
+
+### Resource Profiles
+
+* [EE VJL Biomarker](StructureDefinition-ee-vjl-biomarker.md)
+* [EE VJL BMI ](StructureDefinition-ee-vjl-bmi.md)
+* [EE VJL Body surface area ](StructureDefinition-ee-vjl-body-surface-area.md)
+* [EE VJL Clinical trial consent](StructureDefinition-ee-vjl-clinical-trial-consent.md)
+* [EE VJL Clinical trial subject](StructureDefinition-ee-vjl-clinical-trial-subject.md)
+* [EE VJL Clinical trial](StructureDefinition-ee-vjl-clinical-trial.md)
+* [EE VJL Height ](StructureDefinition-ee-vjl-height.md)
+* [EE VJL Systemic Therapy ](StructureDefinition-ee-vjl-medication-administration.md)
+* [EE VJL Menopause status](StructureDefinition-ee-vjl-menopause-status.md)
+* [EE VJL Patient](StructureDefinition-ee-vjl-patient.md)
+* [EE VJL Performance status ECOG](StructureDefinition-ee-vjl-performance-status-ecog.md)
+* [EE VJL Performance status Karnofsky](StructureDefinition-ee-vjl-performance-status-karnofsky.md)
+* [EE VJL Performance status Lansky](StructureDefinition-ee-vjl-performance-status-lansky.md)
+* [EE VJL Radiotherapy](StructureDefinition-ee-vjl-radiotherapy.md)
+* [EE VJL Surgeries](StructureDefinition-ee-vjl-surgeries.md)
+* [EE VJL Weight ](StructureDefinition-ee-vjl-weight.md)
+
+### Extensions
+
+* [EE VJL Radiotherapy Dose](StructureDefinition-ee-vjl-radiotherapy-dose.md)
+
+### ImplementationGuides
+
+* [VJL - Vähiandmete juhtimislaud](index.md)
+
+### Examples
+
+* [example (Patient)](Patient-example.md)

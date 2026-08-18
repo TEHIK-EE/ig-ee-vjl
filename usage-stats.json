@@ -1,0 +1,117 @@
+{
+  "package": "ee.fhir.vjl",
+  "version": "0.1.0",
+  "fhirVersion": "5.0.0",
+  "jurisdiction": "EE",
+  "extensions": [
+    {
+      "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-radiotherapy-dose",
+      "title": "EE VJL Radiotherapy Dose",
+      "types": [
+        "string"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-weight",
+        "title": "EE VJL Weight "
+      }
+    ],
+    "ResearchStudy": [
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-clinical-trial",
+        "title": "EE VJL Clinical trial"
+      }
+    ],
+    "Consent": [
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-clinical-trial-consent",
+        "title": "EE VJL Clinical trial consent"
+      }
+    ],
+    "ResearchSubject": [
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-clinical-trial-subject",
+        "title": "EE VJL Clinical trial subject"
+      }
+    ],
+    "MedicationAdministration": [
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-medication-administration",
+        "title": "EE VJL Systemic Therapy "
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-patient",
+        "title": "EE VJL Patient"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-radiotherapy",
+        "title": "EE VJL Radiotherapy"
+      },
+      {
+        "url": "https://fhir.ee/vjl/StructureDefinition/ee-vjl-surgeries",
+        "title": "EE VJL Surgeries"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthTime": [
+      "Patient.birthDate"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "https://fhir.ee/base/StructureDefinition/ee-date-accuracy-indicator": [
+      "Patient.birthDate",
+      "Patient.deceased[x]"
+    ],
+    "https://fhir.ee/base/StructureDefinition/ee-patient-age": [
+      "Patient.birthDate"
+    ],
+    "https://fhir.ee/vjl/StructureDefinition/ee-vjl-radiotherapy-dose": [
+      "Procedure"
+    ]
+  }
+}
