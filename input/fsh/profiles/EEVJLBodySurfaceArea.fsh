@@ -4,7 +4,7 @@ Id: ee-vjl-body-surface-area
 Title: "EE VJL Body surface area "
 Description: "Body surface area profile for vjl."
 
-* status = #final
+* status = #draft
 * code = $sct#301898006 "Body surface area"
 * category 0..1
 * category.coding 1..1
@@ -13,7 +13,7 @@ Description: "Body surface area profile for vjl."
 * subject only Reference(EEVJLPatient)
 * effective[x] 1..1
 * effective[x] only dateTime
-* effective[x] ^short = "Kehapindala arvutamise tegemise aeg?"
+* effective[x] ^short = "Kehapindala arvutamise aeg?"
 * value[x] 1..1
 * value[x] only Quantity
 * valueQuantity.value 1..1

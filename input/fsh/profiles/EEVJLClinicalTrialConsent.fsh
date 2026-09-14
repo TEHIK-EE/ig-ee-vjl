@@ -13,7 +13,7 @@ Description: "Clinical trial consent profile for vjl."
 
 
 
-* provision 0..0
+* provision 0..0 //sellel on olemas eraldi reasearch-study, kas oleks vaja seda kasutada?
 * verification 0..0
 * grantor 0..0
 * grantee 0..0

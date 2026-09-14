@@ -60,6 +60,7 @@ dependencies:
   ee.fhir.base: 2.0.0 
   # check latest version https://simplifier.net/packages/ee.fhir.base
   ee.fhir.mpi: 1.5.0
+  ee.fhir.spd: current
 
 # The global property corresponds to the IG.global property, but it
 # uses the type as the YAML key and the profile as its value. Since

@@ -4,7 +4,7 @@ Id: ee-vjl-height
 Title: "EE VJL Height "
 Description: "Height profile for vjl."
 
-* status = #final
+* status = #draft
 * code = $sct#1153637007 "Body height"
 * category 0..1
 * category.coding 1..1
@@ -13,7 +13,7 @@ Description: "Height profile for vjl."
 * subject only Reference(EEVJLPatient)
 * effective[x] 1..1
 * effective[x] only dateTime
-* effective[x] ^short = "Pikkuse mõõtmise tegemise aeg?"
+* effective[x] ^short = "Pikkuse sisestamise aeg?"
 * value[x] 1..1
 * value[x] only Quantity
 * valueQuantity.value 1..1

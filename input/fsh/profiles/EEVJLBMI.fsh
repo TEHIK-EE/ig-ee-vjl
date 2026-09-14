@@ -4,7 +4,7 @@ Id: ee-vjl-bmi
 Title: "EE VJL BMI "
 Description: "BMI profile for vjl."
 
-* status = #final
+* status = #draft
 * code = $sct#60621009 "Body mass index"
 * category 0..1
 * category.coding 1..1
@@ -13,7 +13,7 @@ Description: "BMI profile for vjl."
 * subject only Reference(EEVJLPatient)
 * effective[x] 1..1
 * effective[x] only dateTime
-* effective[x] ^short = "BMI arvutamise tegemise aeg?"
+* effective[x] ^short = "BMI arvutamise aeg?"
 * value[x] 1..1
 * value[x] only Quantity
 * valueQuantity.value 1..1

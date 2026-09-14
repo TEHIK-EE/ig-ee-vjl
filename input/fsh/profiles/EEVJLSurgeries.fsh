@@ -19,6 +19,7 @@ Description: "Surgeries profile for vjl."
 * occurrence[x] 1..1
 * occurrence[x] only dateTime
 * occurrence[x] ^short = "Kirurgilise ravi aeg"
+* location only Reference(EESPDLocation)
 * location ^short = "Kirurgilise ravi raviasutus"
 * reason from https://fhir.ee/ValueSet/kirurgilise-ravi-eesmark
 * reason.concept.coding 1..1 //Kordsus?

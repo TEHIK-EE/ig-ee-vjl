@@ -7,7 +7,7 @@ Description: "Radiotherapy profile for vjl."
 * ^status = #draft
 //* ^experimental = true
 //* code = $sct#
-* status ^short = "Kiiritusravi staatus?"
+* status ^short = "Kiiritusravi staatus"
 * category 0..1   // kordsus?
 * category.coding 1..1 
 * category = $sct#1287742003 "Radiotherapy"
@@ -22,6 +22,7 @@ Description: "Radiotherapy profile for vjl."
 * extension contains EEVJLRadiotherapyDose named dose 1..1   //kordsus?
 * extension[dose].value[x] only string
 * extension[dose] ^short = "Kiiritusravi doos"
+* location only Reference(EESPDLocation)
 * location ^short = "Kiiritusravi raviasutus"
 * reason from https://fhir.ee/ValueSet/kiiritusravi-eesmark
 * reason.concept.coding 1..1 //Kordsus?

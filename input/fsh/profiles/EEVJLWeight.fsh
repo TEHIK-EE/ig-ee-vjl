@@ -4,7 +4,7 @@ Id: ee-vjl-weight
 Title: "EE VJL Weight "
 Description: "Weight profile for vjl."
 
-* status = #final
+* status = #draft
 * code = $sct#27113001 "Body weight"
 * category 0..1
 * category.coding 1..1
@@ -13,7 +13,7 @@ Description: "Weight profile for vjl."
 * subject only Reference(EEVJLPatient)
 * effective[x] 1..1
 * effective[x] only dateTime
-* effective[x] ^short = "Kaalumise aeg?"
+* effective[x] ^short = "Kaalu sisestamise aeg?"
 * value[x] 1..1
 * value[x] only Quantity
 * valueQuantity.value 1..1
