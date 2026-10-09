@@ -1,0 +1,59 @@
+# ee.fhir.vjl#0.1.0: VJL - Vähiandmete juhtimislaud
+
+## Pages
+
+* [Home](index.md)
+* [Diagram examples](page1.md)
+* [Sample page 2](page2.md)
+* [Artifacts Summary](artifacts.md)
+* [Contacts](contacts.md)
+* [Downloads](downloads.md)
+* [Search](search.md)
+
+## Resources
+
+### Resource Profiles
+
+* [EE VJL Biomarker](StructureDefinition-ee-vjl-biomarker.md)
+* [EE VJL BMI](StructureDefinition-ee-vjl-bmi.md)
+* [EE VJL Body surface area](StructureDefinition-ee-vjl-body-surface-area.md)
+* [EE VJL Cancer Diagnosis](StructureDefinition-ee-vjl-cancer-diagnosis.md)
+* [EE VJL Clinical trial consent](StructureDefinition-ee-vjl-clinical-trial-consent.md)
+* [EE VJL Clinical trial subject](StructureDefinition-ee-vjl-clinical-trial-subject.md)
+* [EE VJL Clinical trial](StructureDefinition-ee-vjl-clinical-trial.md)
+* [EE VJL onsultation](StructureDefinition-ee-vjl-consultation.md)
+* [EE VJL Coverage](StructureDefinition-ee-vjl-coverage.md)
+* [EE VJL Foreign Treatment](StructureDefinition-ee-vjl-foreign-treatment.md)
+* [EE VJL Height](StructureDefinition-ee-vjl-height.md)
+* [EE VJL Medication](StructureDefinition-ee-vjl-medication.md)
+* [EE VJL Menopause status](StructureDefinition-ee-vjl-menopause-status.md)
+* [EE VJL Patient](StructureDefinition-ee-vjl-patient.md)
+* [EE VJL Performance status ECOG](StructureDefinition-ee-vjl-performance-status-ecog.md)
+* [EE VJL Performance status Karnofsky](StructureDefinition-ee-vjl-performance-status-karnofsky.md)
+* [EE VJL Performance status Lansky](StructureDefinition-ee-vjl-performance-status-lansky.md)
+* [EE VJL Radiotherapy](StructureDefinition-ee-vjl-radiotherapy.md)
+* [EE VJL Surgeries](StructureDefinition-ee-vjl-surgeries.md)
+* [EE VJL Systemic Therapy record](StructureDefinition-ee-vjl-systemic-therapy-record.md)
+* [EE VJL TNM](StructureDefinition-ee-vjl-tnm.md)
+* [EE VJL Treatment](StructureDefinition-ee-vjl-treatment.md)
+* [EE VJL Weight](StructureDefinition-ee-vjl-weight.md)
+
+### Extensions
+
+* [EE VJL Diagnosis Method](StructureDefinition-ee-vjl-diagnosis-method.md)
+* [EE VJL Foreign Treatment Summary](StructureDefinition-ee-vjl-foreign-treatment-summary.md)
+* [EE VJL Morphology](StructureDefinition-ee-vjl-morphology.md)
+* [EE VJL Radiotherapy Dose](StructureDefinition-ee-vjl-radiotherapy-dose.md)
+
+### ImplementationGuides
+
+* [VJL - Vähiandmete juhtimislaud](index.md)
+
+### Examples
+
+* [BMI (Observation)](Observation-BMI.md)
+* [BodySurfaceArea (Observation)](Observation-BodySurfaceArea.md)
+* [biomarker (Observation)](Observation-biomarker.md)
+* [height (Observation)](Observation-height.md)
+* [weight (Observation)](Observation-weight.md)
+* [patient (Patient)](Patient-patient.md)

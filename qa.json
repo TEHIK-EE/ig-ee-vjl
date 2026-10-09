@@ -1,0 +1,20 @@
+{
+  "url" : "https://fhir.ee/vjl/ImplementationGuide/ee.fhir.vjl",
+  "name" : "EEVJL",
+  "title" : "VJL - Vähiandmete juhtimislaud",
+  "description" : "Vähiandmete juhtimislaud",
+  "status" : "draft",
+  "package-id" : "ee.fhir.vjl",
+  "ig-ver" : "0.1.0",
+  "date" : "Fri, 09 Oct, 2026 12:23:38 +0000",
+  "dateISO8601" : "2026-10-09T12:23:38+00:00",
+  "errs" : 4,
+  "warnings" : 238,
+  "hints" : 48,
+  "broken-links" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "5.0.0",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 1548413392
+}
