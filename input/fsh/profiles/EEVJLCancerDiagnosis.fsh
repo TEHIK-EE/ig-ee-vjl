@@ -22,7 +22,7 @@ Description: "Cancer Diagnosis profile for vjl."
 * recordedDate 1..1
 * recordedDate ^short = "Vähidiagnoosi (ja kahtlustatud?) kuupäev, millal esimest korda kinnitati/dokumenteeriti" //kui statistiline liik on esmane siis esmase diagnoosi kp
 * stage.assessment only Reference(EEVJLTNM)
-* stage ^short = "Vähistaadium???"
+* stage ^short = "Vähistaadium??"
 * note ^short = "Arsti sõnaline diagnoos, oluline laste puhul." // Kas diagnoositeenuses tuleb sõnaline diagnoos siia?
 
 
