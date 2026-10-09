@@ -1,10 +1,10 @@
 Profile: EEVJLBodySurfaceArea
 Parent: Observation
 Id: ee-vjl-body-surface-area
-Title: "EE VJL Body surface area "
+Title: "EE VJL Body surface area"
 Description: "Body surface area profile for vjl."
 
-* status = #draft
+//* status = #draft
 * code = $sct#301898006 "Body surface area"
 * category 0..1
 * category.coding 1..1
@@ -17,8 +17,8 @@ Description: "Body surface area profile for vjl."
 * value[x] 1..1
 * value[x] only Quantity
 * valueQuantity.value 1..1
-* valueQuantity.unit = "m²"
-* valueQuantity.code = #m²
+* valueQuantity.unit = "m2"
+* valueQuantity.code = #m2
 * valueQuantity.system = $ucum
 
 * instantiates[x] 0..0

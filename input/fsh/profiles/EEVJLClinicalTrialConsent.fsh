@@ -6,7 +6,7 @@ Description: "Clinical trial consent profile for vjl."
 
 * ^status = #draft
 * category.coding 1..1
-* category.coding = $consent-scope#reasearch //Kas siin peaks saama midagi muud ka valida?
+* category.coding = $consent-scope#research //Kas siin peaks saama midagi muud ka valida?
 * subject only Reference(EEVJLPatient)
 * date ^short = "Nõusoleku andmise kuupäev?"
 

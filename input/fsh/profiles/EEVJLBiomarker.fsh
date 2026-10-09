@@ -21,7 +21,7 @@ Description: "Biomarker profile for vjl."
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 * valueCodeableConcept from https://fhir.ee/ValueSet/biomarkeri-tulemused
-* valueCodeableConcept ^short = "Placeholder, loend ja selle sisu tuleb veel kokku leppida!"
+* valueCodeableConcept ^short = "Placeholder, loend ja selle sisu tuleb veel kokku leppida!(SNOMED?)"
 
 * instantiates[x] 0..0
 * basedOn 0..0

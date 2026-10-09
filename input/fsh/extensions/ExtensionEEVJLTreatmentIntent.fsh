@@ -1,8 +1,11 @@
+//SystemicTherapy profiilis, mida tegelikult ilmselt pole vaja??
 //Extension: EEVJLTreatmentIntent
 //Id: ee-vjl-treatment-intent
 //Title: "EE VJL Treatment Intent"
 //Description: "Treatment Intent extension for vjl."
-//Context: Procedure
+//Context: MedicationAdministration
 
-//* value[x] only string   //Mis kujul see doos on, ainult numbriline?
-//* value[x] ^short = "Kiiritusravi doos"
+//* value[x] only CodeableConcept  
+//* valueCodeableConcept 1..1
+//* valueCodeableConcept from https://fhir.ee/ValueSet/systeemravi-eesmark
+//* valueCodeableConcept ^short = "Placeholder loendile Süsteemravi eesmärk- snomed loend"

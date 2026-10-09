@@ -1,10 +1,10 @@
 Profile: EEVJLHeight
 Parent: Observation
 Id: ee-vjl-height
-Title: "EE VJL Height "
+Title: "EE VJL Height"
 Description: "Height profile for vjl."
 
-* status = #draft
+//* status = #draft
 * code = $sct#1153637007 "Body height"
 * category 0..1
 * category.coding 1..1

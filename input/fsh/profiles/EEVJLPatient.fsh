@@ -6,5 +6,5 @@ Description: "VJL Patient"
 
 * ^status = #draft
 
-* deceasedBoolean 1..1
-* deceasedBoolean ^short = "Elustaatus"
+//* deceasedBoolean 1..1  //annab viga??
+//* deceasedBoolean ^short = "Elustaatus"

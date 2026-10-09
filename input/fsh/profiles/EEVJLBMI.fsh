@@ -1,10 +1,10 @@
 Profile: EEVJLBMI
 Parent: Observation
 Id: ee-vjl-bmi
-Title: "EE VJL BMI "
+Title: "EE VJL BMI"
 Description: "BMI profile for vjl."
 
-* status = #draft
+//* status = #draft
 * code = $sct#60621009 "Body mass index"
 * category 0..1
 * category.coding 1..1
@@ -17,8 +17,8 @@ Description: "BMI profile for vjl."
 * value[x] 1..1
 * value[x] only Quantity
 * valueQuantity.value 1..1
-* valueQuantity.unit = "kg/m²"
-* valueQuantity.code = #kg/m²
+* valueQuantity.unit = "kg/m2"
+* valueQuantity.code = #kg/m2
 * valueQuantity.system = $ucum
 
 * instantiates[x] 0..0

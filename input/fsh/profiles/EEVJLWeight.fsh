@@ -1,10 +1,10 @@
 Profile: EEVJLWeight
 Parent: Observation
 Id: ee-vjl-weight
-Title: "EE VJL Weight "
+Title: "EE VJL Weight"
 Description: "Weight profile for vjl."
 
-* status = #draft
+//* status = #draft
 * code = $sct#27113001 "Body weight"
 * category 0..1
 * category.coding 1..1
